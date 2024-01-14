@@ -1,0 +1,284 @@
+{
+  "Marketplace_Marchands": [
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 1
+      },
+      "data": "New Module"
+    },
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 2
+      },
+      "data": "New Persona"
+    },
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 3
+      },
+      "data": "Features"
+    },
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 4
+      },
+      "data": "New Story"
+    },
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 5
+      },
+      "data": "Precondition"
+    },
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 6
+      },
+      "data": "Expected Results"
+    },
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 7
+      },
+      "data": "Description"
+    },
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 8
+      },
+      "data": "Prioritization"
+    },
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 9
+      },
+      "data": "Status"
+    },
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 10
+      },
+      "data": "Validation Rules"
+    },
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 11
+      },
+      "data": "Sprint"
+    },
+    {
+      "coordinates": {
+        "row": 1,
+        "column": 12
+      },
+      "data": "Iteration"
+    },
+    {
+      "coordinates": {
+        "row": 2,
+        "column": 1
+      },
+      "data": "Merchants"
+    },
+    {
+      "coordinates": {
+        "row": 2,
+        "column": 2
+      },
+      "data": "Control Tower Admin"
+    },
+    {
+      "coordinates": {
+        "row": 2,
+        "column": 3
+      },
+      "data": "Consult Merchant"
+    },
+    {
+      "coordinates": {
+        "row": 2,
+        "column": 4
+      },
+      "data": "New: As an admin/superadmin, I need to manage my merchants to better group and organize them, so I click on merchants in the navbar"
+    },
+    {
+      "coordinates": {
+        "row": 2,
+        "column": 5
+      },
+      "data": "New: Connected to the control tower as an admin or as a super admin"
+    },
+    {
+      "coordinates": {
+        "row": 2,
+        "column": 6
+      },
+      "data": "As an admin, I can consult the list of merchants"
+    },
+    {
+      "coordinates": {
+        "row": 2,
+        "column": 7
+      },
+      "data": "- Logo\n- Name"
+    },
+    {
+      "coordinates": {
+        "row": 3,
+        "column": 1
+      },
+      "data": "Merchants"
+    },
+    {
+      "coordinates": {
+        "row": 3,
+        "column": 2
+      },
+      "data": "Control Tower Admin"
+    },
+    {
+      "coordinates": {
+        "row": 3,
+        "column": 3
+      },
+      "data": "Add Merchant"
+    },
+    {
+      "coordinates": {
+        "row": 3,
+        "column": 4
+      },
+      "data": "As an admin/superadmin, I need to create categories, so I consult the list of categories and click on 'ajouter une nouvelle catégorie' (add a new category), create a new category, and click on save"
+    },
+    {
+      "coordinates": {
+        "row": 3,
+        "column": 5
+      },
+      "data": "Admin connected and displayed the merchants page"
+    },
+    {
+      "coordinates": {
+        "row": 3,
+        "column": 6
+      },
+      "data": "Create a new merchant"
+    },
+    {
+      "coordinates": {
+        "row": 3,
+        "column": 7
+      },
+      "data": "To create a new merchant"
+    },
+    {
+      "coordinates": {
+        "row": 4,
+        "column": 1
+      },
+      "data": "Merchants"
+    },
+    {
+      "coordinates": {
+        "row": 4,
+        "column": 2
+      },
+      "data": "Control Tower Admin"
+    },
+    {
+      "coordinates": {
+        "row": 4,
+        "column": 3
+      },
+      "data": "Edit Merchant"
+    },
+    {
+      "coordinates": {
+        "row": 4,
+        "column": 4
+      },
+      "data": "As an admin/supein, I need to edit a merchant, so I consult a list of merchants and click on the edit icon"
+    },
+    {
+      "coordinates": {
+        "row": 4,
+        "column": 5
+      },
+      "data": "Admin connected and displayed the merchant page"
+    },
+    {
+      "coordinates": {
+        "row": 4,
+        "column": 6
+      },
+      "data": "Modify an existing merchant"
+    },
+    {
+      "coordinates": {
+        "row": 4,
+        "column": 7
+      },
+      "data": "The admin clicks on the edit icon, changes the content of the merchant, and clicks on save"
+    },
+    {
+      "coordinates": {
+        "row": 5,
+        "column": 1
+      },
+      "data": "Merchants"
+    },
+    {
+      "coordinates": {
+        "row": 5,
+        "column": 2
+      },
+      "data": "Control Tower Admin"
+    },
+    {
+      "coordinates": {
+        "row": 5,
+        "column": 3
+      },
+      "data": "Delete Merchant"
+    },
+    {
+      "coordinates": {
+        "row": 5,
+        "column": 4
+      },
+      "data": "As an admin/superadmin, I need to delete a merchant, so I consult the list of merchants and click on delete icon, click on 'ok' in the popup"
+    },
+    {
+      "coordinates": {
+        "row": 5,
+        "column": 5
+      },
+      "data": "Admin connected and displayed the merchants page"
+    },
+    {
+      "coordinates": {
+        "row": 5,
+        "column": 6
+      },
+      "data": "Delete an existing merchant"
+    },
+    {
+      "coordinates": {
+        "row": 5,
+        "column": 7
+      },
+      "data": "\n- 'Ok' button to confirm the suppression \n- 'Annuler' button to cancel the suppression \n==> After deleting a merchant, a message will be displayed 'Votre marchand a été supprimé avec succès'"
+    }
+  ]
+}
