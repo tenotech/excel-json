@@ -1,6 +1,13 @@
 import * as ExcelJS from 'exceljs';
 import * as fs from 'fs';
 
+interface DataPath {
+    excel: string;
+    json: string;
+  }
+
+const dataPath:DataPath = JSON.parse(fs.readFileSync('paths.json', 'utf-8'));
+
 async function updateCellFromJson(filePath: string, jsonPath: string) {
   const workbook = new ExcelJS.Workbook();
   await workbook.xlsx.readFile(filePath);
@@ -37,7 +44,7 @@ async function updateCellFromJson(filePath: string, jsonPath: string) {
 }
 
 // Example usage
-const excelFilePath = './myExcel.xlsx';
-const jsonFilePath = 'output.json';
+const excelFilePath = dataPath.excel;
+const jsonFilePath = dataPath.json;
 
 updateCellFromJson(excelFilePath, jsonFilePath);

@@ -1,0 +1,4 @@
+{
+    "excel":"/path/to/excel.xlsx",
+    "json":"output.json"
+}

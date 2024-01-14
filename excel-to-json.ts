@@ -1,6 +1,13 @@
 import * as ExcelJS from 'exceljs';
 import * as fs from 'fs';
 
+interface DataPath {
+  excel: string;
+  json: string;
+}
+
+const dataPath:DataPath = JSON.parse(fs.readFileSync('paths.json', 'utf-8'));
+
 async function excelToJson(filePath: string): Promise<{ [sheetName: string]: Array<{ coordinates: { row: number, column: number }, data: any }> }> {
   const workbook = new ExcelJS.Workbook();
   await workbook.xlsx.readFile(filePath);
@@ -29,12 +36,13 @@ async function excelToJson(filePath: string): Promise<{ [sheetName: string]: Arr
 }
 
 // Example usage
-const filePath = './myExcel.xlsx';
+const filePath = dataPath.excel;
+const jsonPath = dataPath.json;
 
 excelToJson(filePath)
   .then(data => {
     const jsonOutput = JSON.stringify(data, null, 2);
-    fs.writeFileSync('output.json', jsonOutput);
+    fs.writeFileSync(jsonPath, jsonOutput);
     console.log('Data extracted and saved to output.json');
   })
   .catch(error => console.error('Error:', error));
